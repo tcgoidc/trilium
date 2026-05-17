@@ -317,8 +317,8 @@ importers:
         specifier: 26.1.0
         version: 26.1.0(typescript@6.0.3)
       i18next-http-backend:
-        specifier: 3.0.6
-        version: 3.0.6(encoding@0.1.13)
+        specifier: 4.0.0
+        version: 4.0.0
       jquery:
         specifier: 4.0.0
         version: 4.0.0
@@ -952,8 +952,8 @@ importers:
         specifier: 26.1.0
         version: 26.1.0(typescript@6.0.3)
       i18next-http-backend:
-        specifier: 3.0.6
-        version: 3.0.6(encoding@0.1.13)
+        specifier: 4.0.0
+        version: 4.0.0
       jquery:
         specifier: 4.0.0
         version: 4.0.0
@@ -7920,9 +7920,6 @@ packages:
     engines: {node: '>=10.14', npm: '>=6', yarn: '>=1'}
     hasBin: true
 
-  cross-fetch@4.1.0:
-    resolution: {integrity: sha512-uKm5PU+MHTootlWEY+mZ4vvXoCn4fLQxT9dSc1sXVMSFkINTJVN8cAQROpwcKm8bJ/c7rgZVIBWzH5T78sNZZw==}
-
   cross-spawn@6.0.6:
     resolution: {integrity: sha512-VqCUuhcd1iB+dsv8gxPttb5iZh/D0iubSP21g36KXdEuf6I5JiioesUVjpCdHV9MZRUfVFlvwtIUyPfxo5trtw==}
     engines: {node: '>=4.8'}
@@ -9667,8 +9664,9 @@ packages:
   i18next-fs-backend@2.6.5:
     resolution: {integrity: sha512-+7HBrlaj3UFnNC9HqiXaIlNkwNINYkgQ2PS4h7qW/WGHC9/+OU9Xi0/tdvjjXATw3YCcpmNV7S3zDD9e10pTWg==}
 
-  i18next-http-backend@3.0.6:
-    resolution: {integrity: sha512-mBOqy8993jtqAoj6XaI1XeC/8/9v6EPS+681ziegrPvTB0DoaCY7PpTS0SpY56qLMoS4OI1TZEM2Zf59zNh05w==}
+  i18next-http-backend@4.0.0:
+    resolution: {integrity: sha512-EgSjO3Q1G6f2Q5oy7u9mmxuesE0oSfzAD97NFBjC8EmkK4guBSYLljM0Fng3DarMWIIkU70jfo4+mUzmyVISTA==}
+    engines: {node: '>=18'}
 
   i18next@26.1.0:
     resolution: {integrity: sha512-dIU6td04DvQuIqVst5S9g0GviTmhZ0DYD4b9ociVGJmuCa5vZ2de/t+Enf4olvj87mF8Y2lwjNQBwC9QZsvzKQ==}
@@ -22854,12 +22852,6 @@ snapshots:
     dependencies:
       cross-spawn: 7.0.6
 
-  cross-fetch@4.1.0(encoding@0.1.13):
-    dependencies:
-      node-fetch: 2.7.0(encoding@0.1.13)
-    transitivePeerDependencies:
-      - encoding
-
   cross-spawn@6.0.6:
     dependencies:
       nice-try: 1.0.5
@@ -25110,11 +25102,7 @@ snapshots:
 
   i18next-fs-backend@2.6.5: {}
 
-  i18next-http-backend@3.0.6(encoding@0.1.13):
-    dependencies:
-      cross-fetch: 4.1.0(encoding@0.1.13)
-    transitivePeerDependencies:
-      - encoding
+  i18next-http-backend@4.0.0: {}
 
   i18next@26.1.0(typescript@6.0.3):
     optionalDependencies:
